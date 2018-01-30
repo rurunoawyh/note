@@ -8,17 +8,23 @@
 `<artfactid>` 本项目的唯一id 用于区分groupId
  
 ###repository和mirrors区别
-1.repository(仓库)
+- 1.repository(仓库)
 
-   ![](img/maven-1.png)
+   ![](https://raw.githubusercontent.com/rurunoawyh/note/master/img/maven-1.png)
    
-1.1 Maven仓库主要有2种：
+   1. Maven仓库主要有2种：
 
-    分两种remote repository 和 local repository
+          分两种remote repository 和 local repository
  
-1.2 remote repository 主要分三种
+   2. remote repository 主要分三种
      
-     中央仓库 http://repo1.maven.org/maven2/ 
-     私服 内网建的repository
-     其他公共仓库
-     
+          中央仓库 http://repo1.maven.org/maven2/ 
+          私服 内网建的repository
+          其他公共仓库
+          
+- 2.Mirrors
+       
+      mirror相当于一个拦截器，会拦截remote repository的请求，重定向到mirror里配置的地址。
+        
+    1. 没有配置mirror
+    
