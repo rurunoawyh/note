@@ -1,9 +1,7 @@
 ### excel公式
  ####场景
      给定excel表格，取表格某几列的值对应数据库表的字段。
-     ="insert into biz_component_relation values("&ROW()&",200009,'"&INDIRECT(ADDRESS(ROW(),8))&"','space','space',
-     '"&INDIRECT(ADDRESS(ROW(),9))&"','device','Xi_JACE_Meter_Elec','topology','wyh','"&INDIRECT(ADDRESS(ROW(),6))&"→"&INDIRECT(ADDRESS(ROW(),1))&"',
-     NOW(),NULL,'n')"
+     ="insert into biz_component_relation values("&INDIRECT(ADDRESS(ROW(),15))&",200009,'"&INDIRECT(ADDRESS(ROW(),13))&"','space','space','"&INDIRECT(ADDRESS(ROW(),14))&"','device','Xi_JACE_Meter_Water','topology','wyh','"&INDIRECT(ADDRESS(ROW(),4))&"→"&INDIRECT(ADDRESS(ROW(),11))&"',NOW(),NULL,'n')"
      
   #### 表达式
    * NOW() , COLUMN() 函数
