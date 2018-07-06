@@ -17,7 +17,7 @@
 >这是应用的内容
 
 ### 图片与链接
-[google](www.google,com)
+[google](www.google.com)
 ![本地图片](http://wyhceshi.oss-cn-beijing.aliyuncs.com/Desert.jpg)
 
 ### 表格
